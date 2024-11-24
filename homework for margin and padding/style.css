@@ -1,0 +1,654 @@
+/* PHONE OPTIMIZATION */
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  body {
+    background-color: #d7b8db;
+  }
+  .heading {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid rgb(0, 255, 115);
+    border-radius: 50px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    font-size: 8px;
+  }
+
+  .heading span {
+    color: rgb(255, 0, 38);
+  }
+
+  .main {
+    width: 388px;
+    height: 388px;
+    background-color: #98ffb9;
+    position: absolute;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+  }
+
+  .box1 {
+    border: 3px solid black;
+    border-bottom: 6px solid black;
+    width: 100px;
+    height: 117px;
+    background-color: #ffe298;
+    position: absolute;
+    margin: 0px;
+  }
+
+  .box2 {
+    border: 3px solid black;
+    border-top: 6px solid black;
+    width: 100px;
+    height: 147px;
+    margin-top: 126px;
+    background-color: #665e49;
+    position: absolute;
+  }
+  .box3 {
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    margin-top: 282px;
+    background-color: #1a23d1;
+    position: absolute;
+  }
+
+  .box4 {
+    border: 3px solid black;
+    width: 276px;
+    height: 276px;
+    margin-left: 106px;
+    background-color: #ff0000;
+    position: absolute;
+  }
+  .box5 {
+    border: 3px solid black;
+    width: 230px;
+    height: 100px;
+    margin-top: 282px;
+    margin-left: 106px;
+    background-color: #8082aa;
+    position: absolute;
+  }
+
+  .box6 {
+    border: 3px solid black;
+    border-left: 6px solid black;
+    border-bottom: 6px solid black;
+    width: 39px;
+    height: 41px;
+    margin-top: 282px;
+    margin-left: 340px;
+    background-color: #7e1670;
+    position: absolute;
+  }
+  .box7 {
+    border: 3px solid black;
+    border-left: 6px solid black;
+    border-top: 6px solid black;
+    width: 39px;
+    height: 47px;
+    margin-top: 332px;
+    margin-left: 340px;
+    background-color: #c0df10;
+    position: absolute;
+  }
+
+  /* Homework Bonus */
+
+  .bonus {
+    margin-top: 600px;
+  }
+
+  .bbox1 {
+    border: 6px solid black;
+    border-top: 0;
+    border-left: 0;
+    width: 100px;
+    height: 50px;
+    background-color: #b5d1de;
+    position: absolute;
+    margin: 0px;
+  }
+
+  .bbox2 {
+    border: 6px solid black;
+    border-left: 0;
+    width: 50px;
+    height: 120px;
+    margin-top: 56px;
+    background-color: #dfd9cb;
+    position: absolute;
+  }
+  .bbox3 {
+    border: 6px solid black;
+    border-left: 0;
+    width: 50px;
+    height: 120px;
+    margin-top: 188px;
+    background-color: #b6aa8e;
+    position: absolute;
+  }
+
+  .bbox4 {
+    border: 6px solid black;
+    border-left: 0;
+    border-bottom: 0;
+    width: 50px;
+    height: 80px;
+    margin-top: 320px;
+    background-color: #eacf8f;
+    position: absolute;
+  }
+
+  .bbox5 {
+    border: 6px solid black;
+    border-top: 0;
+    width: 140px;
+    height: 50px;
+    background-color: #b5d1de;
+    position: absolute;
+    margin: 0px;
+    margin-left: 106px;
+  }
+
+  .bbox6 {
+    border: 6px solid black;
+    width: 190px;
+    height: 190px;
+    margin-top: 56px;
+    margin-left: 56px;
+    background-color: #f21515;
+    position: absolute;
+  }
+
+  .bbox7 {
+    border: 6px solid black;
+    width: 92px;
+    height: 100px;
+    margin-top: 252px;
+    margin-left: 56px;
+    background-color: #000000;
+    position: absolute;
+  }
+
+  .bbox8 {
+    border: 6px solid black;
+    border-bottom: 0;
+    width: 92px;
+    height: 45px;
+    margin-top: 355px;
+    margin-left: 56px;
+    background-color: #b35a5a;
+    position: absolute;
+  }
+
+  .bbox9 {
+    border: 6px solid black;
+    width: 90px;
+    height: 39px;
+    margin-top: 258px;
+    margin-left: 156px;
+    background-color: #baa4a4;
+    position: absolute;
+  }
+
+  .bbox10 {
+    border: 6px solid black;
+    width: 90px;
+    height: 40px;
+    margin-top: 309px;
+    margin-left: 156px;
+    background-color: #d4b727;
+    position: absolute;
+  }
+
+  .bbox11 {
+    border: 6px solid black;
+    width: 90px;
+    height: 14px;
+    margin-top: 361px;
+    margin-left: 156px;
+    background-color: #000000;
+    position: absolute;
+  }
+
+  .bbox12 {
+    border: 6px solid black;
+    border-bottom: 0;
+    width: 200px;
+    height: 13px;
+    margin-top: 387px;
+    margin-left: 156px;
+    background-color: #7207a7;
+    position: absolute;
+  }
+
+  .bbox13 {
+    border: 6px solid black;
+    border-top: 0;
+    width: 120px;
+    height: 50px;
+    background-color: #262f32;
+    position: absolute;
+    margin: 0px;
+    margin-left: 258px;
+  }
+
+  .bbox14 {
+    border: 6px solid black;
+    width: 120px;
+    height: 120px;
+    margin-top: 56px;
+    margin-left: 258px;
+    background-color: #dfd9cb;
+    position: absolute;
+  }
+
+  .bbox15 {
+    border: 6px solid black;
+    width: 54px;
+    height: 58px;
+    margin-top: 188px;
+    margin-left: 258px;
+    background-color: #8a733d;
+    position: absolute;
+  }
+
+  .bbox16 {
+    border: 6px solid black;
+    width: 54px;
+    height: 58px;
+    margin-top: 188px;
+    margin-left: 324px;
+    background-color: #fbc138;
+    position: absolute;
+  }
+
+  .bbox17 {
+    border: 6px solid black;
+    width: 120px;
+    height: 39px;
+    margin-top: 258px;
+    margin-left: 258px;
+    background-color: #39352d;
+    position: absolute;
+  }
+
+  .bbox18 {
+    border: 6px solid black;
+    width: 120px;
+    height: 66px;
+    margin-top: 309px;
+    margin-left: 258px;
+    background-color: #201adb;
+    position: absolute;
+  }
+
+  .bbox19 {
+    border: 6px solid black;
+    border-bottom: 0;
+    width: 218px;
+    height: 13px;
+    margin-top: 387px;
+    margin-left: 160px;
+    background-color: #77db1a;
+    position: absolute;
+  }
+
+  .bbox20 {
+    border: 6px solid black;
+    border-right: 0;
+    border-top: 0;
+    width: 20px;
+    height: 303px;
+    margin-left: 390px;
+    background-color: #77db1a;
+    position: absolute;
+  }
+  .bbox21 {
+    border: 6px solid black;
+    border-right: 0;
+    border-bottom: 0;
+    width: 20px;
+    height: 91px;
+    margin-top: 309px;
+    margin-left: 390px;
+    background-color: #db1a1d;
+    position: absolute;
+  }
+}
+
+/* PC VERSION */
+@media screen and (min-width: 481px) and (max-width: 2000px) {
+  .heading {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid rgb(0, 255, 115);
+    border-radius: 50px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+  }
+
+  .heading span {
+    color: rgb(255, 0, 38);
+  }
+  .heading:hover {
+    color: aqua;
+    zoom: 110%;
+  }
+
+  .main {
+    width: 388px;
+    height: 388px;
+    background-color: #98ffb9;
+    position: absolute;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 150px;
+  }
+
+  .box1 {
+    border: 3px solid black;
+    border-bottom: 6px solid black;
+    width: 100px;
+    height: 117px;
+    background-color: #ffe298;
+    position: absolute;
+    margin: 0px;
+  }
+
+  .box2 {
+    border: 3px solid black;
+    border-top: 6px solid black;
+    width: 100px;
+    height: 147px;
+    margin-top: 126px;
+    background-color: #665e49;
+    position: absolute;
+  }
+  .box3 {
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    margin-top: 282px;
+    background-color: #1a23d1;
+    position: absolute;
+  }
+
+  .box4 {
+    border: 3px solid black;
+    width: 276px;
+    height: 276px;
+    margin-left: 106px;
+    background-color: #ff0000;
+    position: absolute;
+  }
+  .box5 {
+    border: 3px solid black;
+    width: 230px;
+    height: 100px;
+    margin-top: 282px;
+    margin-left: 106px;
+    background-color: #8082aa;
+    position: absolute;
+  }
+
+  .box6 {
+    border: 3px solid black;
+    border-left: 6px solid black;
+    border-bottom: 6px solid black;
+    width: 39px;
+    height: 41px;
+    margin-top: 282px;
+    margin-left: 340px;
+    background-color: #7e1670;
+    position: absolute;
+  }
+  .box7 {
+    border: 3px solid black;
+    border-left: 6px solid black;
+    border-top: 6px solid black;
+    width: 39px;
+    height: 47px;
+    margin-top: 332px;
+    margin-left: 340px;
+    background-color: #c0df10;
+    position: absolute;
+  }
+
+  /* Homework Bonus */
+
+  .bonus {
+    margin-left: 700px;
+  }
+
+  .bbox1 {
+    border: 6px solid black;
+    border-top: 0;
+    border-left: 0;
+    width: 100px;
+    height: 50px;
+    background-color: #b5d1de;
+    position: absolute;
+    margin: 0px;
+  }
+
+  .bbox2 {
+    border: 6px solid black;
+    border-left: 0;
+    width: 50px;
+    height: 120px;
+    margin-top: 56px;
+    background-color: #dfd9cb;
+    position: absolute;
+  }
+  .bbox3 {
+    border: 6px solid black;
+    border-left: 0;
+    width: 50px;
+    height: 120px;
+    margin-top: 188px;
+    background-color: #b6aa8e;
+    position: absolute;
+  }
+
+  .bbox4 {
+    border: 6px solid black;
+    border-left: 0;
+    border-bottom: 0;
+    width: 50px;
+    height: 80px;
+    margin-top: 320px;
+    background-color: #eacf8f;
+    position: absolute;
+  }
+
+  .bbox5 {
+    border: 6px solid black;
+    border-top: 0;
+    width: 140px;
+    height: 50px;
+    background-color: #b5d1de;
+    position: absolute;
+    margin: 0px;
+    margin-left: 106px;
+  }
+
+  .bbox6 {
+    border: 6px solid black;
+    width: 190px;
+    height: 190px;
+    margin-top: 56px;
+    margin-left: 56px;
+    background-color: #f21515;
+    position: absolute;
+  }
+
+  .bbox7 {
+    border: 6px solid black;
+    width: 92px;
+    height: 100px;
+    margin-top: 252px;
+    margin-left: 56px;
+    background-color: #000000;
+    position: absolute;
+  }
+
+  .bbox8 {
+    border: 6px solid black;
+    border-bottom: 0;
+    width: 92px;
+    height: 45px;
+    margin-top: 355px;
+    margin-left: 56px;
+    background-color: #b35a5a;
+    position: absolute;
+  }
+
+  .bbox9 {
+    border: 6px solid black;
+    width: 90px;
+    height: 39px;
+    margin-top: 258px;
+    margin-left: 156px;
+    background-color: #baa4a4;
+    position: absolute;
+  }
+
+  .bbox10 {
+    border: 6px solid black;
+    width: 90px;
+    height: 40px;
+    margin-top: 309px;
+    margin-left: 156px;
+    background-color: #d4b727;
+    position: absolute;
+  }
+
+  .bbox11 {
+    border: 6px solid black;
+    width: 90px;
+    height: 14px;
+    margin-top: 361px;
+    margin-left: 156px;
+    background-color: #000000;
+    position: absolute;
+  }
+
+  .bbox12 {
+    border: 6px solid black;
+    border-bottom: 0;
+    width: 200px;
+    height: 13px;
+    margin-top: 387px;
+    margin-left: 156px;
+    background-color: #7207a7;
+    position: absolute;
+  }
+
+  .bbox13 {
+    border: 6px solid black;
+    border-top: 0;
+    width: 120px;
+    height: 50px;
+    background-color: #262f32;
+    position: absolute;
+    margin: 0px;
+    margin-left: 258px;
+  }
+
+  .bbox14 {
+    border: 6px solid black;
+    width: 120px;
+    height: 120px;
+    margin-top: 56px;
+    margin-left: 258px;
+    background-color: #dfd9cb;
+    position: absolute;
+  }
+
+  .bbox15 {
+    border: 6px solid black;
+    width: 54px;
+    height: 58px;
+    margin-top: 188px;
+    margin-left: 258px;
+    background-color: #8a733d;
+    position: absolute;
+  }
+
+  .bbox16 {
+    border: 6px solid black;
+    width: 54px;
+    height: 58px;
+    margin-top: 188px;
+    margin-left: 324px;
+    background-color: #fbc138;
+    position: absolute;
+  }
+
+  .bbox17 {
+    border: 6px solid black;
+    width: 120px;
+    height: 39px;
+    margin-top: 258px;
+    margin-left: 258px;
+    background-color: #39352d;
+    position: absolute;
+  }
+
+  .bbox18 {
+    border: 6px solid black;
+    width: 120px;
+    height: 66px;
+    margin-top: 309px;
+    margin-left: 258px;
+    background-color: #201adb;
+    position: absolute;
+  }
+
+  .bbox19 {
+    border: 6px solid black;
+    border-bottom: 0;
+    width: 218px;
+    height: 13px;
+    margin-top: 387px;
+    margin-left: 160px;
+    background-color: #77db1a;
+    position: absolute;
+  }
+
+  .bbox20 {
+    border: 6px solid black;
+    border-right: 0;
+    border-top: 0;
+    width: 20px;
+    height: 303px;
+    margin-left: 390px;
+    background-color: #77db1a;
+    position: absolute;
+  }
+  .bbox21 {
+    border: 6px solid black;
+    border-right: 0;
+    border-bottom: 0;
+    width: 20px;
+    height: 91px;
+    margin-top: 309px;
+    margin-left: 390px;
+    background-color: #db1a1d;
+    position: absolute;
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 900px) {
+    body {
+      background-color: #77db1a;
+    }
+  }
+}
